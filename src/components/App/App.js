@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import styled from "styled-components";
 import OldItems from '../OldItems/OldItems';
 import Effects from '../Effects/Effects';
