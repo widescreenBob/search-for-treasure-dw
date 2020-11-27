@@ -4,7 +4,7 @@ import styled from "styled-components";
 const EffectsList = styled.div`
   max-width: 400px;
   display: block;
-  margin: 2rem auto 0;
+  margin: 2rem auto;
 `;
 
 class Effects extends Component {

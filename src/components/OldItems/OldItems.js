@@ -16,7 +16,7 @@ class OldItems extends Component {
   render() {
     return (
       <>
-        <OldItemList>
+        <OldItemList aria-live="polite">
           <h3> Previous Finds</h3>
           <ul>
             {this.props.items.slice(-5).map(item => (

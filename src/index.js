@@ -53,7 +53,7 @@ const GlobalStyle = createGlobalStyle`
   h2 {
     font-size: var(--font-size-5);
     font-family: Oswald, sans-serif;
-    margin: 0;
+    margin: 0 0 1.5rem 0;
   }
 
   h3 {

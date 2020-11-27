@@ -38,7 +38,7 @@ const ResultContainer = styled.section`
   .found-container__description {
     font-weight: 300;
     font-style: italic;
-    margin: 0 auto 1rem;
+    margin: 0 auto 1.5rem;
   }
 
   .found-container__effectdesc {
@@ -620,7 +620,7 @@ class NewApp extends React.Component {
       let { type, description, effectDesc, effects, name } = this.state.latestItem;
       return (
         <>
-          <ResultContainer>
+          <ResultContainer aria-live="polite" id="iteminfo">
             <div className="found-container">
               <p className={`found-container__type ${type}`}>{type}</p>
               <h2 className="found-container__name">{name}</h2>
@@ -630,7 +630,7 @@ class NewApp extends React.Component {
                 ? <Effects items= {effects} /> : null
               }
             </div>
-            <StyledButton onClick={this.handleClick}> GET ITEM </StyledButton>
+            <StyledButton onClick={this.handleClick} aria-controls="iteminfo"> GET ITEM </StyledButton>
             <div className="all-found-container">
               {this.state.itemsFound.length > 1 ? (<OldItems items={this.state.itemsFound} />) : null}
             </div>
@@ -642,7 +642,7 @@ class NewApp extends React.Component {
       return (
         <>
           <ResultContainer>
-            <StyledButton onClick={this.handleClick}> GET ITEM </StyledButton>
+            <StyledButton onClick={this.handleClick} aria-controls="iteminfo"> GET ITEM </StyledButton>
           </ResultContainer>
         </>
       );
