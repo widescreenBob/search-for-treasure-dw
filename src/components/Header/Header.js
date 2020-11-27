@@ -36,6 +36,11 @@ const HeaderContainer = styled.header`
 
   h1 {
     border-bottom: 10px solid var(--main-border-color);
+    text-align: center;
+
+    @media (min-width: 800px) {
+      text-align: left;
+    }
   }
 `;
 

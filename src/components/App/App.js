@@ -23,8 +23,12 @@ const StyledButton = styled.button`
 const ResultContainer = styled.section`
   text-align: center;
   display: block;
-  margin: 0 auto;
+  margin: 2rem auto 0;
   max-width: 70%;
+
+  @media (min-width: 800px) {
+    margin: 0 auto;
+  }
 
   .found-container__type {
     text-transform: uppercase;
@@ -41,17 +45,6 @@ const ResultContainer = styled.section`
     text-align: left;
     max-width: 500px;
     margin: 0 auto 1rem;
-  }
-
-  .found-container__shadow {
-    width: 300px;
-    margin: -1rem 0 2rem;
-    animation: risein forwards 0.5s  1 ease-in;
-  }
-
-  @keyframes risein {
-    0% {transform: scale(0);}
-    100% {transform: scale(1);}
   }
 `;
 
