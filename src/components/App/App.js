@@ -82,7 +82,7 @@ const FoundItems = [
   {
     name: "A Leather and Gold Bound Book",
     type: "mundane",
-    description: "A biography of a merchant, not much of a read but it's a lot of gold."
+    description: "A biography of a merchant, not much of a read but it's made of a lot of gold."
   },
   {
     name: "A Simple Silver Necklace",
@@ -107,7 +107,7 @@ const FoundItems = [
   {
     name: "A Heavy Black Smoking Jacket",
     type: "mundane",
-    description: "A well tailored padded, black smoking jacket."
+    description: "A well tailored padded, black smoking jacket, it does seem to make you look like pimp though."
   },
   {
     name: "Small Notebook",
@@ -117,7 +117,7 @@ const FoundItems = [
   {
     name: "Small Map",
     type: "mundane",
-    description: "A small hand-drawn map. Some areas have small notes scrawled next to them while some areas are missing altogether."
+    description: "A small hand-drawn map. Some areas have small notes scrawled next to them describing gripes the author had with the area."
   },
   {
     name: "A Collection of Books on Weaving",
@@ -162,7 +162,7 @@ const FoundItems = [
   {
     name: "A Garden Hoe",
     type: "mundane",
-    description: "For preparing the ground."
+    description: "For preparing the ground. And visual jokes."
   },
   {
     name: "A Bucket",
@@ -183,6 +183,26 @@ const FoundItems = [
     name: "Dice",
     type: "mundane",
     description: "Several dice."
+  },
+  {
+    name: "A Diamond",
+    type: "mundane",
+    description: "A nice sized diamon wrapped in a tabbaco wrapper"
+  },
+  {
+    name: "Rubies",
+    type: "mundane",
+    description: "1d4 Rubies stuffed in an old sock"
+  },
+  {
+    name: "Pink Pearls",
+    type: "mundane",
+    description: "1d10 Pink pearls in an old tin."
+  },
+  {
+    name: "Emeralds",
+    type: "mundane",
+    description: "1d20 Emeralds in an old brandy bottle."
   },
   {
     name: "A Golden Goblet",
@@ -212,12 +232,12 @@ const FoundItems = [
   {
     name: "A Collection of Bones",
     type: "mundane",
-    description: "A lot of bones that someone gathered, for reasons."
+    description: "A lot of bones that someone gathered, for reasons?"
   },
   {
     name: "Beard Comb",
     type: "mundane",
-    description: "A white beard comb."
+    description: "A white beard comb. The comb is white, you can use it on all colors of beards."
   },
   {
     name: "A Shiny Acorn",
@@ -234,6 +254,21 @@ const FoundItems = [
     type: "magical",
     description: "A loose shirt made from grey wool. This shirt is as light as cotton, but woven from a strange metal like substance providing armor like protection.",
     modifier: "+1 Armor"
+  },
+  {
+    name: "Compass of lost items",
+    type: "magical",
+    description: "A compass set on a small box. When an object is placed in the box, the compass will point the next nearest object of the same type.",
+  },
+  {
+    name: "Box of Bones of the undead horde",
+    type: "magical",
+    description: "A box containing the bones of an undead warrior. The box rattles when near fellow undead as the occupant tries to rejoin the horde.",
+  },
+  {
+    name: "Highesters Monacle",
+    type: "magical",
+    description: "A monacle that when worn can detect magic.",
   },
   {
     name: "The Tailor's Shirt",
@@ -538,6 +573,12 @@ const FoundItems = [
         effect: "10+: You're good"
       }
     ]
+  },
+  {
+    name: "Faraz's Battle Mace",
+    type: "magical",
+    description: "A simple one-handed black metal mace that once belonged to Faraz the Beserker.",
+    effectDesc: "If a critical hit is rolled on a hack and slash, for the remainder of the encounter damage uses d10s, however no armor can be used and you must always seek out the most dangerous foe"
   },
   {
     name: "Beorn's Bathrobe",

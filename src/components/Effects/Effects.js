@@ -13,8 +13,8 @@ class Effects extends Component {
       <>
         <EffectsList>
           <ul>
-            {this.props.items.map(item=> (
-              <li>{item.effect}</li>
+            {this.props.items.map((item, index) => (
+              <li key={index}>{item.effect}</li>
             ))}
           </ul>
         </EffectsList>

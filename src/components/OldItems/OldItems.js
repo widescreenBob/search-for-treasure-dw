@@ -19,8 +19,8 @@ class OldItems extends Component {
         <OldItemList aria-live="polite">
           <h3> Previous Finds</h3>
           <ul>
-            {this.props.items.slice(-5).map(item => (
-              <li className= {item.type}>{item.name}</li>
+            {this.props.items.slice(-5).map((item, index) => (
+              <li className={item.type} key={index}>{item.name}</li>
             ))}
           </ul>
         </OldItemList>
