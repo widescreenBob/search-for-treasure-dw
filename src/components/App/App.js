@@ -122,7 +122,7 @@ const FoundItems = [
   {
     name: "A Collection of Books on Weaving",
     type: "mundane",
-    description: "More books that you'd need on weaving."
+    description: "More books than you'd need on weaving."
   },
   {
     name: "An Old Eye Patch",
@@ -187,7 +187,7 @@ const FoundItems = [
   {
     name: "A Diamond",
     type: "mundane",
-    description: "A nice sized diamon wrapped in a tabbaco wrapper"
+    description: "A nice sized diamond wrapped in a tabbaco wrapper"
   },
   {
     name: "Rubies",
@@ -578,7 +578,7 @@ const FoundItems = [
     name: "Faraz's Battle Mace",
     type: "magical",
     description: "A simple one-handed black metal mace that once belonged to Faraz the Beserker.",
-    effectDesc: "If a critical hit is rolled on a hack and slash, for the remainder of the encounter damage uses d10s, however no armor can be used and you must always seek out the most dangerous foe"
+    effectDesc: "If a critical hit is rolled on a hack and slash, for the remainder of the encounter damage uses d10s, however no armor can be used to discount damage and you must always seek out the most dangerous foe."
   },
   {
     name: "Beorn's Bathrobe",
